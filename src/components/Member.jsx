@@ -1,7 +1,8 @@
 import React from 'react'
 
 export default props =>
-    <div>
+    <p>
         { props.name }
         <strong> { props.lastName }</strong>
-    </div>    
+        <strong> { props.age }</strong>
+    </p>    
